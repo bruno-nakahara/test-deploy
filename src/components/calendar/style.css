@@ -19,34 +19,34 @@
   margin-bottom: 1.5rem;
 }
 
-.calendar-nav {
+.calendar-handler {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
 }
 
-.calendar-nav button {
+.calendar-handler button {
   border: none;
   background-color: var(--primary);
-  color: var(--black);
+  color: var(--white);
   text-decoration: none;
   font-weight: bold;
   padding: 0.5rem 0.75rem;
   border-radius: 1.75rem;
 }
 
-.calendar-nav button:hover {
+.calendar-handler button:hover {
   opacity: 0.8;
 }
 
-.calendar-nav button:active {
+.calendar-handler button:active {
   box-shadow: 0 5px 5px var(--gray-light);
   transform: translateY(4px);
   transition: all 0.1s;
 }
 
-.calendar-nav p {
+.calendar-handler p {
   font-size: 1.25rem;
   font-weight: bold;
   text-transform: capitalize;
