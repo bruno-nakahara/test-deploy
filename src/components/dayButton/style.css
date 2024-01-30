@@ -32,7 +32,7 @@
   opacity: 0.8;
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .day-button {
     padding: 0.5rem;
   }

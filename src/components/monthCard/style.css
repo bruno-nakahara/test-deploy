@@ -15,7 +15,7 @@
   font-size: 1.25rem;
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .calendar-layout {
     padding: 0;
   }
