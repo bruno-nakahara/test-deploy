@@ -1,0 +1,22 @@
+.card {
+  margin: 1rem auto;
+}
+
+.calendar-layout {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.week-days {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 450px) {
+  .calendar-layout {
+    padding: 0;
+  }
+}

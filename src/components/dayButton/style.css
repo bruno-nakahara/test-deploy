@@ -1,0 +1,39 @@
+.day-button {
+  padding: 0.75rem;
+  cursor: pointer;
+  margin: 0.25rem;
+  line-height: 0.5rem;
+  border: none;
+  text-decoration: none;
+  background-color: var(--white);
+}
+
+.day-button:hover {
+  opacity: 0.3;
+  border-radius: 1.5rem;
+}
+
+.day-button:active {
+  opacity: 0.5;
+  background-color: var(--black);
+}
+
+.day-button:disabled {
+  cursor: not-allowed;
+}
+
+.booked {
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 1.5rem;
+}
+
+.booked:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 450px) {
+  .day-button {
+    padding: 0.5rem;
+  }
+}
