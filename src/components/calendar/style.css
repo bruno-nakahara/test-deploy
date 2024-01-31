@@ -19,14 +19,14 @@
   margin-bottom: 1.5rem;
 }
 
-.calendar-handler {
+.calendar-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
 }
 
-.calendar-handler button {
+.calendar-nav button {
   border: none;
   background-color: var(--primary);
   color: var(--white);
@@ -36,17 +36,17 @@
   border-radius: 1.75rem;
 }
 
-.calendar-handler button:hover {
+.calendar-nav button:hover {
   opacity: 0.8;
 }
 
-.calendar-handler button:active {
+.calendar-nav button:active {
   box-shadow: 0 5px 5px var(--gray-light);
   transform: translateY(4px);
   transition: all 0.1s;
 }
 
-.calendar-handler p {
+.calendar-nav p {
   font-size: 1.25rem;
   font-weight: bold;
   text-transform: capitalize;

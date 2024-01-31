@@ -60,7 +60,7 @@ function Calendar() {
           <h2>Calendário {selectedYear}</h2>
         </div>
 
-        <div className="calendar-handler">
+        <div className="calendar-nav">
           <button onClick={() => handleMonthChange('prev')}>{'<'}</button>
           <p>{ConvertMonthToString(selectedYear, selectedMonth)}</p>
           <button onClick={() => handleMonthChange('next')}>{'>'}</button>
