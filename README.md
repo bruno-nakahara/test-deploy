@@ -1,9 +1,5 @@
 <h1>Calendar-Front-End</h1>
 
-<h2>Como é a aplicação?</h2>
-
-<p>Um componente de calendário feito em React + Typescript</p>
-
 <h2>Tecnologias e ferramentas</h2>
 
 <ul>
@@ -33,3 +29,15 @@ $ yarn dev
 
 # e pronto! Front-end da Aplicação rodando.
 ```
+<h2>Como é a aplicação?</h2>
+
+<p>Navegar para o próximo mês ou para o mês anterior</p>
+
+<p>Receber uma lista de dias que contém um status e, com base nesse status, aplicar regra de renderização diferente para um dia correspondente. Tipos de status:</p>
+
+<ul>
+  <li>Uma data com status de "block", vai bloquear o botão da data para não conseguir realizar nenhum tipo de ação.</li>
+  <li>Status de "booked", a data está destacado. Caso clicar na data, ela deixa de ser "booked"</li>
+  <li>Sem status, não terá nenhuma regra. Ao clicar na data, ela vai mudar para o status de "booked"</li>
+</ul>
+
