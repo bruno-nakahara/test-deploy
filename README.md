@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+<h1>Calendar-Front-End</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Como é a aplicação?</h2>
 
-Currently, two official plugins are available:
+<p>Um componente de calendário feito em React + Typescript</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Tecnologias e ferramentas</h2>
 
-## Expanding the ESLint configuration
+<ul>
+  <li>ReactJS</li>
+  <li>TypeScript</li>
+</ul>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2>Instalação e uso</h2>
 
-- Configure the top-level `parserOptions` property like this:
+<h3>Requisitos</h3>
+<p>No seu computador, com sistema operacional windows, tem que ter o <a href="https://nodejs.org/pt-br/download/">Node</a> instalado.</p>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+<p>Cria uma pasta onde irá baixar os códigos. Após criar a pasta siga os passos abaixo:</p>
+
 ```
+# No terminal da pasta criada, copie o repositório com o seguinte comando
+$ git clone https://github.com/bruno-nakahara/calendar.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Após clonar o repositório, pelo terminal, entra na pasta usando o comando
+$ cd calendar
+
+# Instale as dependências utilizando o comando 
+$ yarn install
+
+# Se tem todas as dependências, então rode a aplicação com
+$ yarn dev
+
+# e pronto! Front-end da Aplicação rodando.
+```
