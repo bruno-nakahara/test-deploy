@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './style.css';
 import { useCustomDates } from '../../hooks/useCustomDate';
-import { minTwoDigits } from '../../utils/month';
+import { MinTwoDigits } from '../../utils/month';
 
 type Props = {
   day: number;
@@ -20,7 +20,7 @@ function DayButton({ year, month, day }: Props) {
   useEffect(() => {
     const foundDate = customDates.find(
       date =>
-        date.date === `${year}-${minTwoDigits(month + 1)}-${minTwoDigits(day)}`
+        date.date === `${year}-${MinTwoDigits(month + 1)}-${MinTwoDigits(day)}`
     );
 
     if (foundDate) {

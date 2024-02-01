@@ -9,6 +9,6 @@ export const GetMonthDays = (year: number, month: number): number[] => {
   return Array.from({ length: days.getDate() }, (_, i) => i + 1);
 };
 
-export function minTwoDigits(n: number) {
+export function MinTwoDigits(n: number) {
   return (n < 10 ? '0' : '') + n;
 }

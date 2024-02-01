@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useContext, useState } from 'react';
 import { CustomDate } from '../types/date';
-import { minTwoDigits } from '../utils/month';
+import { MinTwoDigits } from '../utils/month';
 
 interface CustomDatesProviderProps {
   children: ReactNode;
@@ -26,7 +26,7 @@ export function CustomDatesProvider({ children }: CustomDatesProviderProps) {
   const [customDates, setCustomDates] = useState<CustomDate[]>([]);
 
   function handleCustomDates({ newDay, month, year }: handleCustomDatesProps) {
-    const newDate = `${year}-${minTwoDigits(month + 1)}-${minTwoDigits(
+    const newDate = `${year}-${MinTwoDigits(month + 1)}-${MinTwoDigits(
       newDay
     )}`;
     const foundDate = customDates.find(date => date.date === newDate);
