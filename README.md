@@ -43,5 +43,5 @@ $ yarn dev
   <li>Sem status, não terá nenhuma regra. Ao clicar na data, ela vai mudar para o status de "booked"</li>
 </ul>
 
-<p>OBS: No arquivo index.tsx na pasta src/components/calendar vai poder alterar as datas customizadas para testar a aplicação</p>
+<p>Obs: No arquivo index.tsx na pasta src/components/calendar vai poder alterar as datas customizadas para testar a aplicação</p>
 
